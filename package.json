@@ -1,0 +1,15 @@
+{
+  "name": "amplify-gen2-singlefile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "0.10.4",
+    "aws-cdk-lib": "2.152.0",
+    "constructs": "10.3.0",
+    "typescript": "5.6.2"
+  }
+}
