@@ -43,3 +43,4 @@ api.addRoutes({
 });
 
 backend.addOutputs({ ApiUrl: api.apiEndpoint });
+export default backend;
